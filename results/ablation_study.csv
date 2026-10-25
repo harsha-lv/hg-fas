@@ -1,0 +1,5 @@
+Configuration,Accuracy (%),Precision (%),Recall / Sensitivity (%),Specificity (%),F1-Score (%),ROC-AUC,Brier Score,TP,FP,TN,FN
+Full HG-FASNet (Proposed),91.8,89.66,92.86,90.91,91.23,0.9545,0.0904,26,3,30,2
+Ablation 1: w/o Attention Gate (MHC-FAG),91.8,89.66,92.86,90.91,91.23,0.9556,0.0905,26,3,30,2
+Ablation 2: w/o Feature Engineering (DPFR),90.16,86.67,92.86,87.88,89.66,0.961,0.0952,26,4,29,2
+"Ablation 3: w/o PSO (Equal Soft Voting, th=0.50)",90.16,86.67,92.86,87.88,89.66,0.9556,0.0892,26,4,29,2
